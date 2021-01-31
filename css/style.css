@@ -40,7 +40,6 @@ body{
     display: -ms-flexbox;
     display: flex;
     width:160%;
-    text-transform: uppercase;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -48,6 +47,9 @@ body{
 .header-wrapper i{
     display: none;
     color:white;
+}
+.nav-list ul li{
+     text-transform: uppercase;
 }
 .nav-list ul li a{
     color:white;
