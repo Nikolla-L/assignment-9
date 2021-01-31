@@ -1,0 +1,145 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media(max-width:1050px){
+    body{
+        width:768px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .header-wrapper{
+        width:600px;
+    }
+    .header-wrapper i{
+        display: block;
+    }
+    .loadings{
+        font-size: 25px;
+    }
+    .title{
+        font-size:80px;
+    }
+    .big-container{
+        width:768px;
+    }
+    .box-wrapper{
+        width:45%;
+    }
+}
+@media(max-width:780px){
+    body{
+        width:95%;
+    }
+    .header-wrapper{
+        width:80%;
+    }
+    .title{
+        font-size:50px;
+    }
+    .big-container{
+        width:95%;
+    }
+    .mini-container h2{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .mini-container p{
+        font-size:16px;
+    }
+    .box-wrapper{
+        width:100%;
+    }
+    .some-text{
+        height:100%;
+    }
+    .some-text h3{
+        font-size:20px;
+    }
+    .some-text p{
+        font-size: 12px;
+        margin-top:7px;
+    }
+    .container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height:200%;
+    }
+    .mini-container{
+        width:100%;
+    }
+    .mini-container img{
+        height:80%;
+    }
+    .button{
+        margin:15px auto;
+    }
+}
+@media(max-width:420px){
+    .header-wrapper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .loadings{
+        font-size:16px;
+        margin-top:-40px;
+    }
+    .header-wrapper i{
+        display: none;
+    }
+    .nav-list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .nav-list ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .nav-list ul li{
+        margin-top:2px;
+        background-color:#325eff77;
+        width:150px;
+        height:20px;
+        border-radius:5px;
+    }
+    .nav-list ul li a{
+        font-size:14px;
+        font-weight: lighter;
+    }
+    .title{
+        font-size:30px;
+        margin-top:120px;
+        margin-left:-30px;
+    }
+    .mini-container h2{
+        font:bold 14 poppins;
+    }
+    .mini-container p{
+        font-size:12px;
+    }
+    .button p{
+        font-size:10px
+    }
+    .some-text h3{
+        font-size: 20px;
+    }
+    .some-text p{
+        font-size:14px;
+        font-weight: lighter;
+    }
+}
+/* <=287px -is shemdeg jojoxetia, sheirgos yvelam smartphonebi an computerebi */
