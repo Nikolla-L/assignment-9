@@ -48,10 +48,8 @@ body{
     display: none;
     color:white;
 }
-.nav-list ul li{
-     text-transform: uppercase;
-}
 .nav-list ul li a{
+    text-transform: uppercase;
     color:white;
     font:600 12px/18px poppins;
 }
